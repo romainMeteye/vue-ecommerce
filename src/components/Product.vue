@@ -1,16 +1,19 @@
 <template>
     <div>
       <h1>Liste des produits</h1>
-      <ul>
-        <li v-for="product in productList" :key="product.id">
-          <img :src="product.image" alt="Product Image">
-          <h2>{{ product.title }}</h2>
-          <p>{{ product.description }}</p>
-          <p>Prix : {{ product.price }} €</p>
-        </li>
-      </ul>
+      <div class="product-list">
+        <div v-for="product in productList" :key="product.id" class="product">
+          <img :src="product.image" alt="Product Image" class="product-image">
+          <div class="product-details">
+            <h2 class="product-title">{{ product.title }}</h2>
+            <p class="product-description">{{ product.description }}</p>
+            <p class="product-price">Prix : {{ product.price }} €</p>
+          </div>
+        </div>
+      </div>
     </div>
-  </template>
+</template>
+  
   
   <script>
   import { useProductStore } from '@/stores/products'
