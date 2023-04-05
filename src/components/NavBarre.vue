@@ -76,7 +76,10 @@
 		<header>
 			<nav>
 				<ul>
-					<li><a href="#">Accueil</a></li>
+					<li><a href="#">Nouveautés</a></li>
+					<li><a href="#">Homme</a></li>
+					<li><a href="#">Femme</a></li>
+					<li><a href="#">Enfant</a></li>
 					<li><a href="#">Produits</a></li>
 					<li><a href="#">Contact</a></li>
 					<li><a href="#" class="cart-toggle">Panier (0)</a></li>
@@ -85,3 +88,4 @@
 		</header>
 	</body>
 </template>
+
