@@ -77,7 +77,8 @@
 			<nav>
 				<ul>
 					<li><a href="#">Accueil</a></li>
-
+					<li><a href="#">Produits</a></li>
+					<li><a href="#">Contact</a></li>
 					<li><a href="#" class="cart-toggle">Panier (0)</a></li>
 				</ul>
 			</nav>
