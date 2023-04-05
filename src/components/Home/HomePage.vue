@@ -102,7 +102,7 @@ header button{
 
 .main{
   margin: 20px;
-  margin-top: 80px;
+  margin-top: 110px;
   display:flex;
   flex-direction:column;
   justify-content:center;
