@@ -6,8 +6,8 @@
           <img :src="product.image" alt="Product Image" class="product-image">
           <div class="product-details">
             <h2 class="product-title">{{ product.title }}</h2>
-            <p class="product-description">{{ product.description }}</p>
             <p class="product-price">Prix : {{ product.price }} €</p>
+            <button class="product-button">Voir le produit</button>
           </div>
         </div>
       </div>
